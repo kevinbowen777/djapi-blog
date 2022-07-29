@@ -26,6 +26,7 @@ python = "^3.10"
 environs = {extras = ["django"], version = "^9.5.0"}
 Django = "~=4.0.0"
 djangorestframework = "~=3.13.0"
+django-cors-headers = "~=3.10.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
