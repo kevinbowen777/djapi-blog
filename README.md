@@ -14,7 +14,7 @@
      - `docker-compose up --build`
      - `docker-compose python manage.py migrate`
      - `docker-compose python manage.py createsuperuser`
- - Open browser to http://127.0.0.1:8000`
+ - Open browser to http://127.0.0.1:8000
 
 ---
 ### URLs
@@ -28,6 +28,17 @@
     http://127.0.0.1:8000/api/v1/dj-rest-auth/password/reset/confirm
  - User registration endpoint:
     http://127.0.0.1:8000/api/v1/dj-rest-auth/registration/
+ - User list:
+    http://127.0.0.1:8000/api/v1/users/
+ - User detail:
+    http://127.0.0.1:8000/api/v1/users/1/
+ - API schema download:
+    http://127.0.0.1:8000/api/schema/
+ - Redoc API browser:
+    http://127.0.0.1:8000/api/schema/redoc/
+ - Swagger-UI:
+    http://127.0.0.1:8000/api/schema/swagger-ui/
+
 
 ---
 ## Features
