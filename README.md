@@ -45,7 +45,7 @@
  - TBD
 
 ### Live Demo on Heroku:
- - [djapi-blog](https://kbowen-djapi-blog.herokuapp.com/)
+ - [djapi-blog](https://kbowen-djapi-blog.herokuapp.com/api/v1/)
 
 ---
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/djapi-blog/blob/master/LICENSE)
