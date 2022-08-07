@@ -120,6 +120,9 @@ django-cache-url==3.4.2; python_version >= "3.6" \
 django-cors-headers==3.10.1; python_version >= "3.6" \
     --hash=sha256:b5a874b492bcad99f544bb76ef679472259eb41ee5644ca62d1a94ddb26b7f6e \
     --hash=sha256:1390b5846e9835b0911e2574409788af87cd9154246aafbdc8ec546c93698fe6
+django-extensions==3.2.0; python_version >= "3.6" \
+    --hash=sha256:7dc7cd1da50d83b76447a58f5d7e5c8e6cd83f21e9b7e5f97e6b644f4d4e21a6 \
+    --hash=sha256:4c234a7236e9e41c17d9036f6dae7a3a9b212527105b8a0d24b2459b267825f0
 djangorestframework==3.13.1; python_version >= "3.6" \
     --hash=sha256:24c4bf58ed7e85d1fe4ba250ab2da926d263cd57d64b03e8dcef0ac683f8b1aa \
     --hash=sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee
