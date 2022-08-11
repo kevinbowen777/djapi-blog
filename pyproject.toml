@@ -78,6 +78,7 @@ pytest = "^7.1.2"
 pytest-django = "^4.5.2"
 django-coverage-plugin = "^2.0.3"
 django-pytest = "^0.2.0"
+factory-boy = "3.0.1"
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "config.settings"
