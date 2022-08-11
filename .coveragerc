@@ -1,0 +1,15 @@
+[run]
+include = accounts/*, config/*, posts/*
+omit =
+    */__init__.py,
+    *admin.py,
+    *manage.py,
+    *settings*.py,
+    *migrations/*,
+    *tests/*,
+    *test_*.py,
+    *tests.py,
+    *wsgi.py,
+    *conftest.py,
+    */extra*
+plugins = django_coverage_plugin

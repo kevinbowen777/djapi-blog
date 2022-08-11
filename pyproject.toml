@@ -14,6 +14,36 @@ exclude = '''
 )/
 '''
 
+[tool.coverage.paths]
+source = ["accounts", "config", "pages"]
+
+[tool.coverage.run]
+branch = true
+source = ["config"]
+omit = [
+    "*/__init__.py",
+    "*manage.py",
+    "*settings*.py",
+    "*urls.py",
+    "*admin.py",
+    "*migrations/*",
+    "*tests/*",
+    "*test_*.py",
+    "*tests.py",
+    "*wsgi.py",
+    "*conftest.py",
+    "*/extra*",
+]
+plugins = [
+    "django_coverage_plugin",
+]
+
+[tool.coverage.django_coverage_plugin]
+template_extensions = "html, txt, tex, email"
+
+[tool.coverage.report]
+show_missing = true
+
 [tool.poetry]
 name = "djapi-blog"
 version = "0.1.0"
@@ -42,6 +72,20 @@ pre-commit = "^2.20.0"
 ipython = "^8.4.0"
 friendly = "^0.5.35"
 colorama = "^0.4.5"
+coverage = {extras = ["toml"], version = "^6.4.3"}
+pytest-cov = "^3.0.0"
+pytest = "^7.1.2"
+pytest-django = "^4.5.2"
+django-coverage-plugin = "^2.0.3"
+django-pytest = "^0.2.0"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+filterwarnings = [
+    "ignore::django.utils.deprecation.RemovedInDjango50Warning",
+    "ignore::django.utils.deprecation.RemovedInDjango41Warning",
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
