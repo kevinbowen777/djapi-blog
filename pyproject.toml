@@ -15,7 +15,7 @@ exclude = '''
 '''
 
 [tool.coverage.paths]
-source = ["accounts", "config", "pages"]
+source = ["accounts", "config", "posts", "pages"]
 
 [tool.coverage.run]
 branch = true
