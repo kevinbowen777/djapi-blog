@@ -53,6 +53,8 @@
               <a class="dropdown-item"
               href="{% url 'home' %}">Home</a>
               <a class="dropdown-item"
+              href="{% url 'user_detail' user.username %}">My Profile</a>
+              <a class="dropdown-item"
               href="{% url 'account_set_password' %}">Change password</a>
               <a class="dropdown-item"
               href="{% url 'account_reset_password' %}">Forgot password?</a>
