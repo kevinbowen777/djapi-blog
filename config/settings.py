@@ -72,6 +72,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "django.template.context_processors.request",
             ],
+            "debug": True,
         },
     },
 ]
@@ -154,3 +155,6 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "A blogging API based on the Django Rest Framework(DRF)",
     "VERSION": "0.1.0",
 }
+
+# django-crispy-forms
+CRISPY_TEMPLATE_PACK = "bootstrap4"

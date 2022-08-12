@@ -11,8 +11,15 @@ from drf_spectacular.views import (
 
 
 urlpatterns = [
+    # Django admin
     path("admin/", admin.site.urls),
+    # User management
+    path("accounts/", include("allauth.urls")),
+    # Local apps
+    # path("accounts/", include("accounts.urls")),
+    path("", include("pages.urls")),
     path("api/v1/", include("posts.urls")),
+    path("", include("posts.urls")),
     path("api-auth/", include("rest_framework.urls")),
     path("api/v1/dj-rest-auth/", include("dj_rest_auth.urls")),
     path(
