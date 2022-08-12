@@ -27,6 +27,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sites",
     # Third-party apps
+    "bootstrap4",
+    "django_countries",
     "django_extensions",
     "rest_framework",
     "corsheaders",
@@ -39,6 +41,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     # Local apps
     "accounts.apps.AccountsConfig",
+    "pages.apps.PagesConfig",
     "posts.apps.PostsConfig",
 ]
 
@@ -115,6 +118,9 @@ STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = str(BASE_DIR.joinpath("media"))
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
