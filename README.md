@@ -1,7 +1,5 @@
 ## djapi-blog 
 
- - A blogging API based on the Django Rest Framework(DRF) 
-
 <div align="center">
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
@@ -10,6 +8,18 @@
 
 </div>
 
+ - A blogging API based on the Django Rest Framework(DRF) 
+
+---
+## Features
+ - Browseable Web API
+ - SwaggerUI & ReDoc API documentation
+ - User registration with email verification & social(GitHub) login
+ - Bootstrap4 & crispy-forms decorations
+ - Customizable user profiles with bio, profile picture & country flags
+ - Nox testing sessions (black, linting, pytest, coverage, Sphinx doc generation)
+
+---
 ### Installation
  - `git clone https://github.com/kevinbowen777/djapi-blog.git`
  - `cd djapi-blog`
@@ -49,8 +59,6 @@
 
 
 ---
-## Features
- - TBD
 
 ### Live Demo on Heroku:
  - [djapi-blog](https://kbowen-djapi-blog.herokuapp.com/api/v1/)
