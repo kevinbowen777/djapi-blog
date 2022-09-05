@@ -1,14 +1,14 @@
-## djapi-blog 
+## djapi-blog
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/kevinbowen777/djapi-blog.svg)](https://github.com/kevinbowen777/djapi-blog/issues)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
- - A blogging API based on the Django Rest Framework(DRF) 
+ - A blogging API based on the Django Rest Framework(DRF)
 
 ---
 ## Features
@@ -56,7 +56,6 @@
     http://127.0.0.1:8000/api/schema/redoc/
  - Swagger-UI:
     http://127.0.0.1:8000/api/schema/swagger-ui/
-
 
 ---
 
