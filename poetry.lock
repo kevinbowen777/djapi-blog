@@ -451,7 +451,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "django-extensions"
-version = "3.2.0"
+version = "3.2.1"
 description = "Extensions for Django"
 category = "main"
 optional = false
@@ -1815,7 +1815,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "3c5ea0a261806e930e1dd7410edf5f14bc61a07e56eaa32b9e287ac077b26a32"
+content-hash = "ca3137d8d5db148ca21fc02b08830ceae8765a4b160dc36a4fe297d329a032be"
 
 [metadata.files]
 alabaster = [
@@ -2119,8 +2119,8 @@ django-crispy-forms = [
     {file = "django_crispy_forms-1.14.0-py3-none-any.whl", hash = "sha256:bc4d2037f6de602d39c0bc452ac3029d1f5d65e88458872cc4dbc01c3a400604"},
 ]
 django-extensions = [
-    {file = "django-extensions-3.2.0.tar.gz", hash = "sha256:7dc7cd1da50d83b76447a58f5d7e5c8e6cd83f21e9b7e5f97e6b644f4d4e21a6"},
-    {file = "django_extensions-3.2.0-py3-none-any.whl", hash = "sha256:4c234a7236e9e41c17d9036f6dae7a3a9b212527105b8a0d24b2459b267825f0"},
+    {file = "django-extensions-3.2.1.tar.gz", hash = "sha256:2a4f4d757be2563cd1ff7cfdf2e57468f5f931cc88b23cf82ca75717aae504a4"},
+    {file = "django_extensions-3.2.1-py3-none-any.whl", hash = "sha256:421464be390289513f86cb5e18eb43e5dc1de8b4c27ba9faa3b91261b0d67e09"},
 ]
 django-pytest = [
     {file = "django-pytest-0.2.0.tar.gz", hash = "sha256:de21f20f9e7eb941529d75078b18192506a9f6d4ae80f86fbe2f3bcac8e09d71"},
