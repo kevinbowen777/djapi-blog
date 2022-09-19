@@ -1,5 +1,5 @@
-djapi-blog - A blogging API built with the Django REST framework
-================================================================
+djapi-blog
+==========
 
 .. toctree::
    :hidden:
@@ -12,8 +12,7 @@ djapi-blog - A blogging API built with the Django REST framework
    :backlinks: top
    :depth: 2
 
-This repository runs a Django 4.1/DRF 3.13 API application demonstrating some of its
-basic functionality using the concept of a blog.
+A basic blogging website & API built with Django 4.1 & Django REST Framework (DRF) 3.13
 
 Features
 --------
@@ -42,7 +41,8 @@ Features
        * flake8-bugbear
        * flake8-docstrings
        * flake8-import-order
-       * safety(python package vulnerability testing)
+     * safety(python package vulnerability testing)
+     * pytest sessions with coverage
 
 Installation
 ------------

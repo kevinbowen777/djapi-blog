@@ -8,13 +8,13 @@
 
 </div>
 
- - A blogging API based on the Django Rest Framework(DRF)
+ - A basic blogging website & API built with Django 4.1 & Django REST Framework (DRF) 3.13
 
 ##### Table of Contents
  - [Features](#features)
  - [Installation](#installation)
  - [Testing](#testing)
- - [API URLs](#urls)
+ - [API URLs](#api-urls)
  - [Application Demo](#application-demo)
  - [Screenshots](#screenshots)
  - [Reporting Bugs](#reporting-bugs)
@@ -29,7 +29,7 @@
      - Bootstrap4 & crispy-forms decorations
      - Customizable user profile pages with bio, profile pic, & country flags
  - Dev/testing
-     - basic module testing templates
+     - Basic module testing templates
      - Coverage reports
      - Debug-toolbar available
      - Examples of using Factories & pytest fixtures in account app testing
@@ -71,7 +71,8 @@
      - e.g. `nox`, `nox -rs lint-3.11`, `nox -s tests`
 
 ---
-### URLs
+
+### API URLs
  - Log In endpoint:
     http://127.0.0.1:8000/api/v1/dj-rest-auth/login/
  - Log Out endpoint:
