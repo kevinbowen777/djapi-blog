@@ -32,7 +32,7 @@ Features
    * Debug-toolbar available
    * Examples of using Factories & pytest fixtures in account app testing
    * `shell_plus` with IPython via `django-extensions` package
-   * Nox testing sessions for latest Python 3.9, 3.10, and 3.11
+   * Nox testing sessions for Python: 3.9, 3.10, 3.11, 3.12
 
      * black
      * Sphinx documentaion generation
