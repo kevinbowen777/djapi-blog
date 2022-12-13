@@ -1,3 +1,6 @@
+"""
+Note: The following are tests used prior to creating PostFactory
+
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 
@@ -24,3 +27,4 @@ class BlogTests(TestCase):
         self.assertEqual(self.post.title, "A good title")
         self.assertEqual(self.post.body, "Nice body content")
         self.assertEqual(str(self.post), "A good title")
+"""
