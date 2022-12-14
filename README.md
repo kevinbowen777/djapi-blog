@@ -120,28 +120,28 @@ TBD
 ### Screenshots
 
 ### Home
-![Home](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_home.png)
+![Home](images/djapi-blog_home.png)
 
 ### Index
-![Message Index](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_index.png)
+![Message Index](images/djapi-blog_index.png)
 
 ### Profile Page
-![Profile Page](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_profile-page.png)
+![Profile Page](images/djapi-blog_profile-page.png)
 
 ### Login Page
-![Login Page](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_sign-in.png)
+![Login Page](images/djapi-blog_sign-in.png)
 
 ### Post List View
-![Post List View](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_post-list-view.png)
+![Post List View](images/djapi-blog_post-list-view.png)
 
 ### Swagger-UI
-![Swagger-UI](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_swagger-ui.png)
+![Swagger-UI](images/djapi-blog_swagger-ui.png)
 
 ### Redoc API page
-![Redoc API page](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_redoc-ui.png)
+![Redoc API page](images/djapi-blog_redoc-ui.png)
 
 ### Email Address management
-![Email Address management](https://github.com/kevinbowen777/djapi-blog/blob/master/images/djapi-blog_email-addresses.png)
+![Email Address management](images/djapi-blog_email-addresses.png)
 
 ---
 
