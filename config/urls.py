@@ -13,7 +13,7 @@ from drf_spectacular.views import (
 urlpatterns = [
     # Django admin
     path("admin/doc/", include("django.contrib.admindocs.urls")),
-    path("admin/", admin.site.urls),
+    path("resources/", admin.site.urls),
     # User management
     path("accounts/", include("allauth.urls")),
     # Local apps
