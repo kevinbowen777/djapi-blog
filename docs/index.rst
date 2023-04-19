@@ -7,6 +7,8 @@ djapi-blog
 
    license
    package_index
+   create_new_users
+   create_new_posts
 
 .. contents:: Table of Contents
    :local:
