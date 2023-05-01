@@ -993,9 +993,9 @@ snowballstemmer==2.2.0 ; python_version >= "3.10" and python_version < "4.0" \
 sortedcontainers==2.4.0 ; python_version >= "3.10" and python_version < "4.0" \
     --hash=sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88 \
     --hash=sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0
-sphinx==6.2.1 ; python_version >= "3.10" and python_version < "4.0" \
-    --hash=sha256:6d56a34697bb749ffa0152feafc4b19836c755d90a7c59b72bc7dfd371b9cc6b \
-    --hash=sha256:97787ff1fa3256a3eef9eda523a63dbf299f7b47e053cfcf684a1c2a8380c912
+sphinx==7.0.0 ; python_version >= "3.10" and python_version < "4.0" \
+    --hash=sha256:283c44aa28922bb4223777b44ac0d59af50a279ac7690dfe945bb2b9575dc41b \
+    --hash=sha256:3cfc1c6756ef1b132687b813ec6ea2214cb7a7e5d1dcb2772006cb895a0fa469
 sphinxcontrib-applehelp==1.0.4 ; python_version >= "3.10" and python_version < "4.0" \
     --hash=sha256:29d341f67fb0f6f586b23ad80e072c8e6ad0b48417db2bde114a4c9746feb228 \
     --hash=sha256:828f867945bbe39817c210a1abfd1bc4895c8b73fcaade56d45357a348a07d7e
