@@ -9,7 +9,6 @@ from drf_spectacular.views import (
     SpectacularSwaggerView,
 )
 
-
 urlpatterns = [
     # Django admin
     path("admin/doc/", include("django.contrib.admindocs.urls")),
