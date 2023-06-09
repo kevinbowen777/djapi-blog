@@ -6,7 +6,7 @@ from django_countries.fields import CountryField
 
 class CustomUser(AbstractUser):
     name = models.CharField("Name of User", blank=True, max_length=100)
-    age = models.PositiveIntegerField(blank=True)
+    age = models.PositiveIntegerField(null=True, blank=True)
     bio = models.TextField("Bio", blank=True)
     profile_pic = models.ImageField(upload_to="profile_pics/", blank=True)
     country = CountryField("Country", blank=True)
