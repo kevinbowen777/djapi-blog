@@ -84,7 +84,7 @@ Django = "4.2.2"
 
 environs = { version = "^9.5.0", extras = ["django"] }
 djangorestframework = "^3.13.0"
-django-cors-headers = "^3.10.0"
+django-cors-headers = "^4.0"
 dj-rest-auth = "^4.0"
 django-allauth = "^0.54.0"
 drf-spectacular = "^0.26.0"
