@@ -190,9 +190,9 @@ django-allauth==0.54.0 ; python_version >= "3.10" and python_version < "4.0" \
 django-cache-url==3.4.4 ; python_version >= "3.10" and python_version < "4.0" \
     --hash=sha256:5ca4760b4580b80e41279bc60d1e5c16a822e4e462265faab0a330701bb0ef9a \
     --hash=sha256:ef2cfacea361ee22e9b67d6ca941db22e0a9eaf892b67ca71cad52c62a17fd36
-django-cors-headers==4.0.0 ; python_version >= "3.10" and python_version < "4.0" \
-    --hash=sha256:a971cd4c75b29974068cc36b5c595698822f1e0edd5f1b32ea42ea37326ad4aa \
-    --hash=sha256:e3cbd247a1a835da4cf71a70d4214378813ea7e08337778b82cb2c1bc19d28d6
+django-cors-headers==4.1.0 ; python_version >= "3.10" and python_version < "4.0" \
+    --hash=sha256:36a8d7a6dee6a85f872fe5916cc878a36d0812043866355438dfeda0b20b6b78 \
+    --hash=sha256:88a4bfae24b6404dd0e0640203cb27704a2a57fd546a429e5d821dfa53dd1acf
 django-countries==7.5.1 ; python_version >= "3.10" and python_version < "4.0" \
     --hash=sha256:22915d9b9403932b731622619940a54894a3eb0da9a374e7249c8fc453c122d7 \
     --hash=sha256:2df707aca7a5e677254bed116cf6021a136ebaccd5c2f46860abd6452bb45521
