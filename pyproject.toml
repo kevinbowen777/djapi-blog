@@ -119,6 +119,8 @@ django-debug-toolbar = "^4.0.0"
 django-test-plus = "^2.2.1"
 pytest-sugar = "^0.9.6"
 ruff = "^0.0.275"
+werkzeug = "^2.3.6"
+pyopenssl = "^23.2.0"
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "config.settings"
