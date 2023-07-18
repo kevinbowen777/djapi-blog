@@ -5,6 +5,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="Django REST Framework, DRF, blog" />                         
+  <meta name="description" content="A blog API built with Django REST Framwork" />
   <title>Djapi Blog API | {% block title %}{% endblock title %}</title>
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}"/>
   <!-- Bootstrap4 CSS -->
@@ -85,13 +87,13 @@
           <div class="pagination">
             <span class="page-links">
               {% if page_obj.has_previous %}
-                <a class="btn btn-info" href="{{ request.path }}?page={{ page_obj.previous_page_number }}">&laquo; previous</a>
+                <a class="btn btn-info" href="{{ request.path }}?page={{ page_obj.previous_page_number }}">« previous</a>
               {% endif %}
               <span class="page-current">
                 Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
               </span>
               {% if page_obj.has_next %}
-                <a class="btn btn-info" href="{{ request.path }}?page={{ page_obj.next_page_number }}">next &raquo;</a>
+                <a class="btn btn-info" href="{{ request.path }}?page={{ page_obj.next_page_number }}">next »</a>
               {% endif %}
             </span>
           </div>
@@ -113,7 +115,7 @@
     <div class="col-md-12 col-sm-12 col-sm-push-6">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item col-md-2">
-           <p style="color:white;font-size:60%"> &copy; 2023 djapi-blog&reg;</p>
+           <p class="copyright"> © 2023 djapi-blog®</p>
           </li>
           <li class="nav-item col-md-2">
           </li>
