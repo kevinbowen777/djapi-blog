@@ -94,18 +94,18 @@ exclude = '''
 )/
 '''
 
-[tool.coverage.paths]
-source = ["accounts", "config", "posts", "pages"]
-
 [tool.coverage.run]
 branch = true
-source = ["config"]
+dynamic_context = "test_function"
+source = ["accounts", "config", "posts", "pages"]
 omit = [
-    "*conftest.py",
-    "*manage.py",
-    "*settings*.py",
+    "conftest.py",
+    "manage.py",
+    "settings*.py",
     "*test.py",
-    "*wsgi.py",
+    "asgi.py",
+    "wsgi.py",
+    "gunicorn.py",
     "*/__init__.py",
     "*/migrations/*",
     "*/factories.py",
@@ -116,10 +116,15 @@ plugins = [
 ]
 
 [tool.coverage.django_coverage_plugin]
-template_extensions = "html, txt, tex, email"
+template_extensions = "html"
 
 [tool.coverage.report]
 show_missing = true
+precision = 2
+
+[tool.coverage.html]
+show_contexts = true
+title = "djapi-blog coverage report"
 
 [tool.djlint]
 exclude="htmlcov"
