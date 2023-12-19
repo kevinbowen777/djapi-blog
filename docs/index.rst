@@ -15,7 +15,7 @@ djapi-blog
    :backlinks: top
    :depth: 2
 
-A basic blogging website & API built with Django 4.2.x & Django REST Framework (DRF) 3.13.x
+A basic blogging website & API built with Django 5.0.x & Django REST Framework (DRF) 3.13.x
 
 Features
 --------
