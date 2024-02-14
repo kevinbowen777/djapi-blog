@@ -36,12 +36,12 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "5.0.1"
+Django = "5.0.2"
 
 djangorestframework = "^3.13.0"
 django-cors-headers = "^4.0"
 dj-rest-auth = "^5.0"
-django-allauth = ">=0.60, < 0.61"
+django-allauth = ">=0.60.0, <= 0.70.0"
 environs = { version = "^10", extras = ["django"] }
 drf-spectacular = "^0.26.0"
 whitenoise = "^6.1.0"
