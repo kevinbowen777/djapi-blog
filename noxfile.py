@@ -1,4 +1,5 @@
 """Nox sessions - djapi-blog."""
+
 import tempfile
 
 import nox
