@@ -584,13 +584,13 @@ with-social = ["django-allauth (>=0.56.0,<0.58.0)"]
 
 [[package]]
 name = "django"
-version = "5.0.2"
+version = "5.0.3"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "Django-5.0.2-py3-none-any.whl", hash = "sha256:56ab63a105e8bb06ee67381d7b65fe6774f057e41a8bab06c8020c8882d8ecd4"},
-    {file = "Django-5.0.2.tar.gz", hash = "sha256:b5bb1d11b2518a5f91372a282f24662f58f66749666b0a286ab057029f728080"},
+    {file = "Django-5.0.3-py3-none-any.whl", hash = "sha256:5c7d748ad113a81b2d44750ccc41edc14e933f56581683db548c9257e078cc83"},
+    {file = "Django-5.0.3.tar.gz", hash = "sha256:5fb37580dcf4a262f9258c1f4373819aacca906431f505e4688e37f3a99195df"},
 ]
 
 [package.dependencies]
@@ -753,18 +753,17 @@ types-psycopg2 = ">=2.9.21.13"
 
 [[package]]
 name = "djangorestframework"
-version = "3.14.0"
+version = "3.15.0"
 description = "Web APIs for Django, made easy."
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "djangorestframework-3.14.0-py3-none-any.whl", hash = "sha256:eb63f58c9f218e1a7d064d17a70751f528ed4e1d35547fdade9aaf4cd103fd08"},
-    {file = "djangorestframework-3.14.0.tar.gz", hash = "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8"},
+    {file = "djangorestframework-3.15.0-py3-none-any.whl", hash = "sha256:5fa616048a7ec287fdaab3148aa5151efb73f7f8be1e23a9d18484e61e672695"},
+    {file = "djangorestframework-3.15.0.tar.gz", hash = "sha256:3f4a263012e1b263bf49a4907eb4cfe14de840a09b1ba64596d01a9c54835919"},
 ]
 
 [package.dependencies]
 django = ">=3.0"
-pytz = "*"
 
 [[package]]
 name = "djangorestframework-types"
@@ -836,13 +835,13 @@ poetry = ["poetry"]
 
 [[package]]
 name = "drf-spectacular"
-version = "0.26.5"
+version = "0.27.1"
 description = "Sane and flexible OpenAPI 3 schema generation for Django REST framework"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "drf-spectacular-0.26.5.tar.gz", hash = "sha256:aee55330a774ba8a9cbdb125714d1c9ee05a8aafd3ce3be8bfd26527649aeb44"},
-    {file = "drf_spectacular-0.26.5-py3-none-any.whl", hash = "sha256:c0002a820b11771fdbf37853deb371947caf0159d1afeeffe7598e964bc1db94"},
+    {file = "drf-spectacular-0.27.1.tar.gz", hash = "sha256:452e0cff3c12ee057b897508a077562967b9e62717992eeec10e62dbbc7b5a33"},
+    {file = "drf_spectacular-0.27.1-py3-none-any.whl", hash = "sha256:0a4cada4b7136a0bf17233476c066c511a048bc6a485ae2140326ac7ba4003b2"},
 ]
 
 [package.dependencies]
@@ -2004,17 +2003,6 @@ mysql = ["mysql-connector-python"]
 postgresql = ["psycopg2"]
 
 [[package]]
-name = "pytz"
-version = "2024.1"
-description = "World timezone definitions, modern and historical"
-optional = false
-python-versions = "*"
-files = [
-    {file = "pytz-2024.1-py2.py3-none-any.whl", hash = "sha256:328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319"},
-    {file = "pytz-2024.1.tar.gz", hash = "sha256:2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812"},
-]
-
-[[package]]
 name = "pyyaml"
 version = "6.0.1"
 description = "YAML parser and emitter for Python"
@@ -2943,4 +2931,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "1407827c01d255ff43b8cfdd197363fc822783f4076e6e8724834a71af51a3fa"
+content-hash = "d0bd92cddfa0ea5ec476401abf6f20fca37daea97bf4b61f833329261f1dd36d"
