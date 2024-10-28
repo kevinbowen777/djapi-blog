@@ -2,11 +2,11 @@
 
 project = "djapi-blog"
 author = "Kevin Bowen"
-copyright = f"2023, {author}"
+copyright = f"2024, {author}"
 #
 html_theme = "furo"
 html_logo = "django_24.png"
-html_title = "django-start"
+html_title = "djapi-blog"
 extensions = [
     "sphinx.ext.duration",
 ]
