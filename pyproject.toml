@@ -76,7 +76,7 @@ coverage = { version = "^7.0.0", extras = ["toml"] }
 django-coverage-plugin = "^3.0.0"
 djlint = "^1.31.0"
 sphinx-lint = "^0.9.1"
-safety = "^3.0"
+safety = "3.2.3"
 factory-boy = "3.0.1"
 ipython = "^8.4.0"
 friendly = "^0.7.0"
