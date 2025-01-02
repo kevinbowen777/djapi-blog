@@ -34,8 +34,8 @@ jobs:
         uses: schneegans/dynamic-badges-action@v1.4.0
         with:
           auth: ${{ secrets.GIST_TOKEN }}
-          gistID: 261b3eac2838cf0bc3b365335c8323df
-          filename: covbadge.json
+          gistID: 4c8d766fe3beeeb2ac96226f62793297
+          filename: djapi-blog_covbadge.json
           label: Coverage
           message: ${{ env.total }}%
           minColorRange: 50
