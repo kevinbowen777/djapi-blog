@@ -4,22 +4,22 @@ version = "0.3.2"
 description = "A blogging API based on the Django Rest Framework(DRF)"
 requires-python = ">=3.10.0, <3.14.0"
 dependencies = [
-    "Django (==5.1.4)",
+    "Django (==5.1.5)",
     "djangorestframework (>=3.15.0, <3.16.0)",
     "django-allauth (>=65.0, <66.0.0)",
     "environs[django] (>=11.0, <15.0)",
     "dj-rest-auth (>=7.0, <8.0)",
-    "drf-spectacular (>=0.28.0, <0.29.0)",
     "django-extensions (>=3.2.0, <3.3.0)",
     "whitenoise (>=6.8.0, <6.9.0)",
-    "psycopg[binary] (==3.2.3)",
+    "psycopg[binary] (==3.2.4)",
     "Pillow (>=11.0, <12.0)",
     "gunicorn (>=23.0.0, <24.0.0)",
-    "django-cors-headers (==4.6.0)",
     # crispy-bootstrap4 uses calver, so version is unclamped
     "crispy-bootstrap4 (>=2024.10)",
     "django-crispy-forms (>=2.0, <2.4)",
     "django-countries (>=7.3.2, <7.7.0)",
+    "drf-spectacular (>=0.28.0, <0.29.0)",
+    "django-cors-headers (==4.6.0)",
 ]
 authors = [
     { name = "Kevin Bowen", email = "kevin.bowen@gmail.com" },
@@ -57,7 +57,7 @@ Repository = "https://github.com/kevinbowen777/djapi-blog.git"
 Documentation = "file:///docs/_build/index.html"
 
 [tool.poetry.group.dev.dependencies]
-django-debug-toolbar = ">=4.0.0, <5.0.0"
+django-debug-toolbar = ">=5.0.0, <6.0.0"
 pre-commit = ">=4.0, <5.0"
 ruff = ">=0.8, <1.0"
 nox = "2024.10.09"
@@ -210,6 +210,7 @@ exclude = [
 
 [tool.ruff.lint]
 select = [
+    "A",    # flake8-builtins
     "B",    # flake8-bugbear
     "C90",  # mccabe
     "DJ",   # flake8-django
@@ -243,6 +244,7 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 "config/test.py" = ["S101", "S106"]
 "pages/tests/*" = ["S101", "S106"]
 "posts/tests/*" = ["S101", "S106"]
+"docs/conf.py" = ["A001"]
 
 [tool.ruff.lint.mccabe]
 # Unlike Flake8, default to a complexity level of 10.
