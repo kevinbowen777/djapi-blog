@@ -9,7 +9,7 @@
 
 </div>
 
- - A basic blogging website & API built with Django 5.1.x & Django REST Framework (DRF) 3.13.x
+ - A basic blogging website & API built with Django 5.2.x & Django REST Framework (DRF) 3.16.x
 
 ##### Table of Contents
  - [Features](#features)
