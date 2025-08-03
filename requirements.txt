@@ -41,18 +41,18 @@ djangorestframework==3.16.0 ; python_version >= "3.11" and python_full_version <
 drf-spectacular==0.28.0 ; python_version >= "3.11" and python_full_version < "3.14.0" \
     --hash=sha256:2c778a47a40ab2f5078a7c42e82baba07397bb35b074ae4680721b2805943061 \
     --hash=sha256:856e7edf1056e49a4245e87a61e8da4baff46c83dbc25be1da2df77f354c7cb4
-environs==14.2.0 ; python_version >= "3.11" and python_full_version < "3.14.0" \
-    --hash=sha256:22669a58d53c5b86a25d0231c4a41a6ebeb82d3942b8fbd9cf645890c92a1843 \
-    --hash=sha256:2b6c78a77dfefb57ca30d43a232270ecc82adabf67ab318e018084b9a3529e9b
+environs==14.3.0 ; python_version >= "3.11" and python_full_version < "3.14.0" \
+    --hash=sha256:20672d92db325ce8114872b1989104eb84f083486325b5a44bcddff56472a384 \
+    --hash=sha256:91e4c4ea964be277855cdd83a588f6375f10fad9fa452660ecb9f503c230f26a
 gunicorn==23.0.0 ; python_version >= "3.11" and python_full_version < "3.14.0" \
     --hash=sha256:ec400d38950de4dfd418cff8328b2c8faed0edb0d517d3394e457c317908ca4d \
     --hash=sha256:f014447a0101dc57e294f6c18ca6b40227a4c90e9bdb586042628030cba004ec
 inflection==0.5.1 ; python_version >= "3.11" and python_full_version < "3.14.0" \
     --hash=sha256:1a29730d366e996aaacffb2f1f1cb9593dc38e2ddd30c91250c6dde09ea9b417 \
     --hash=sha256:f38b2b640938a4f35ade69ac3d053042959b62a0f1076a5bbaa1b9526605a8a2
-jsonschema==4.24.1 ; python_version >= "3.11" and python_full_version < "3.14.0" \
-    --hash=sha256:6b916866aa0b61437785f1277aa2cbd63512e8d4b47151072ef13292049b4627 \
-    --hash=sha256:fe45a130cc7f67cd0d67640b4e7e3e2e666919462ae355eda238296eafeb4b5d
+jsonschema==4.25.0 ; python_version >= "3.11" and python_full_version < "3.14.0" \
+    --hash=sha256:24c2e8da302de79c8b9382fee3e76b355e44d2a4364bb207159ce10b517bd716 \
+    --hash=sha256:e63acf5c11762c0e6672ffb61482bdf57f0876684d8d249c0fe2d730d48bc55f
 jsonschema-specifications==2025.4.1 ; python_version >= "3.11" and python_full_version < "3.14.0" \
     --hash=sha256:4653bffbd6584f7de83a67e0d620ef16900b390ddc7939d56684d6c81e33f1af \
     --hash=sha256:630159c9f4dbea161a6a2205c3011cc4f18ff381b189fff48bb39b9bf26ae608
