@@ -4,10 +4,10 @@ version = "0.3.3"
 description = "A blogging API based on the Django Rest Framework(DRF)"
 requires-python = ">=3.11.0"
 dependencies = [
-    "Django (==5.2.12)",
+    "Django (==5.2.13)",
     "djangorestframework (==3.17.1)",
     "django-allauth (>=65.0, <66.0.0)",
-    "environs[django] (==15.0.0)",
+    "environs[django] (==15.0.1)",
     "dj-rest-auth (>=7.0, <8.0)",
     "django-extensions (>=4.1.0, <4.2.0)",
     "whitenoise (>=6.9.0, <7.0.0)",
