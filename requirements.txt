@@ -15,9 +15,9 @@ dj-email-url==1.0.6 ; python_full_version >= "3.12.0" and python_full_version < 
     --hash=sha256:cbd08327fbb08b104eac160fb4703f375532e4c0243eb230f5b960daee7a96db
 dj-rest-auth==7.2.0 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:f77af37da5cf6ee28f03f283a378a2f5761860e72d1d6f2fa3d50e6286000482
-django==5.2.14 ; python_version >= "3.12" and python_full_version < "3.15.0" \
-    --hash=sha256:58a63ba841662e5c686b57ba1fec52ddd68c0b93bd96ac3029d55728f00bf8a2 \
-    --hash=sha256:6f712143bd3064310d1f50fac859c3e9a274bdcfc9595339853be7779297fc76
+django==5.2.15 ; python_version >= "3.12" and python_full_version < "3.15.0" \
+    --hash=sha256:0eb4a9bb1853a35b0286dbc6d916bd352c8c2687195a7f2d6f80cefd840e4970 \
+    --hash=sha256:5154a9bf84ac01dde011e367f355c07dbb329532e06810dcf3ef2af269e236e7
 django-allauth==65.18.0 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:afb82e2c545b9a5539370ad120468faaed84715e095a7b6e76972dacdc6376fe \
     --hash=sha256:e508640c83b94eaf1a9b4e9ac5332dc310dcdc83fca40d58a3f670e15bad1e84
