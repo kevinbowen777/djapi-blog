@@ -27,6 +27,50 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+djapi-blog 0.3.6 (2026-09-13)
+=============================
+
+Contributor-facing changes
+--------------------------
+
+-  (`#565 <https://github.com/kevinbowen777/djapi-blog/issues/565>`_): Initial zizmor remediation. Pin GitHub actions to hashes.
+
+-  (`#568 <https://github.com/kevinbowen777/djapi-blog/issues/568>`_): Update testing to Python 3.14.7, 3.13.15, and 3.12.14
+
+-  (`#568 <https://github.com/kevinbowen777/djapi-blog/issues/568>`_): Update django-debug-toolbar to 7.1.1
+
+-  (`#568 <https://github.com/kevinbowen777/djapi-blog/issues/568>`_): Update gunicorn to 26.1.0
+
+-  (`#568 <https://github.com/kevinbowen777/djapi-blog/issues/568>`_): Update nox to 2026.8.17
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Update django-allauth to 65.19.2
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Update django-debug-toolbar to 8.0.0
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Update django-countries to 9.1.0
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Upgrade environs to 15.2.0
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Upgrade gunicorn to 26.2.0
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Update towncrier to 26.9.0
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Update psycopg to 3.3.5
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Update djlint to 1.46.1
+
+-  (`#574 <https://github.com/kevinbowen777/djapi-blog/issues/574>`_): Replace master with main in static gh action
+
+-  (`#575 <https://github.com/kevinbowen777/djapi-blog/issues/575>`_): Upgrade GitHub actions to latest versions
+
+
+New features
+------------
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Upgrade djangorestframework to 3.18.1
+
+-  (`#573 <https://github.com/kevinbowen777/djapi-blog/issues/573>`_): Upgrade Django to 6.1.1
+
 djapi-blog 0.3.5 (2026-08-21)
 =============================
 
