@@ -19,6 +19,7 @@
 - [API URLs](#api-urls)
 - [Application Demo](#application-demo)
 - [Screenshots](#screenshots)
+- [Contributing](#contributing)
 - [Reporting Bugs](#reporting-bugs)
 
 ---
@@ -173,6 +174,13 @@ TBD
 ### Email Address management
 
 ![Email Address management](images/djapi-blog_email-addresses.png)
+
+---
+
+### Contributing
+
+You are free to fork this repository and modify as you see fit. See
+[CONTRIBUTING](https://github.com/kevinbowen777/django-api-blog/CONTRIBUTING) for details on reporting issues, etc.
 
 ---
 
