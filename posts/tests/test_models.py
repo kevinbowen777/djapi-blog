@@ -13,5 +13,4 @@ class PostTests(TestCase):
         self.post = PostFactory()
 
     def test__str__(self):
-        assert self.post.__str__() == self.post.title
         assert str(self.post) == self.post.title

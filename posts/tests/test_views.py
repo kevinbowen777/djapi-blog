@@ -27,7 +27,6 @@ class PostTests(TestCase):
         )
 
     def test___str__(self):
-        assert self.post.__str__() == self.post.title
         assert str(self.post) == self.post.title
 
     def test_post_content(self):
