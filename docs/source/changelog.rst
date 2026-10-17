@@ -27,6 +27,30 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+djapi-blog 0.3.8 (2026-10-17)
+=============================
+
+Security updated
+----------------
+
+-  (`#578 <https://github.com/kevinbowen777/djapi-blog/issues/578>`_): Update django-allauth to 65.20.0
+
+-  (`#578 <https://github.com/kevinbowen777/djapi-blog/issues/578>`_): Update pillow to 13.0.0
+
+-  (`#578 <https://github.com/kevinbowen777/djapi-blog/issues/578>`_): Update djangorestframework
+
+-  (`#582 <https://github.com/kevinbowen777/djapi-blog/issues/582>`_): Update Django to 6.1.2
+
+
+Contributor-facing changes
+--------------------------
+
+- : Update ruff rules & fix reported errors
+
+-  (`#578 <https://github.com/kevinbowen777/djapi-blog/issues/578>`_): Update djlint to 1.46.4
+
+-  (`#578 <https://github.com/kevinbowen777/djapi-blog/issues/578>`_): Update testing for Python 3.14.8, 3.13.16, 3.12.15
+
 djapi-blog 0.3.7 (2026-10-03)
 =============================
 
